@@ -27,7 +27,9 @@ titles available on Netflix, with columns:
 
 ## Analysis
 
-The analysis in [`netflix_eda.py`](netflix_eda.py) walks through:
+The analysis is available both as a script, [`netflix_eda.py`](netflix_eda.py),
+and as the original notebook, [`notebooks/netflix_eda.ipynb`](notebooks/netflix_eda.ipynb).
+Both walk through:
 
 1. **Understanding the dataset** - shape, data types, unique value counts,
    and missing values per column.
@@ -78,6 +80,9 @@ python netflix_eda.py
 This prints the analysis to the console and (re)generates the charts in
 `images/`.
 
+Alternatively, open [`notebooks/netflix_eda.ipynb`](notebooks/netflix_eda.ipynb)
+in Jupyter to step through the same analysis interactively.
+
 ## Project Structure
 
 ```
@@ -86,6 +91,8 @@ Netflix_Dataset_EDA/
 │   └── netflix_titles.csv        # Dataset
 ├── docs/
 │   └── Netflix_Business_Case_Study.pdf   # Business case study brief
+├── notebooks/
+│   └── netflix_eda.ipynb         # Original notebook version
 ├── images/                       # Generated charts
 ├── netflix_eda.py                # EDA script
 ├── requirements.txt
